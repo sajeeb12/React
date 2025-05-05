@@ -11,9 +11,15 @@ import Complex from './Complex.jsx'
 import Arrays from './Arrays.jsx'
 import Conditional from './Conditional.jsx'
 import Unicafe from './Unicafe.jsx'
+import Anecdotes from './Anecdotes.jsx'
+import Collections from './Collections.jsx'
+import Course from './Course.jsx'
+import Form from './Form.jsx'
+import Phonebook from './Components/Phonebook.jsx'
+import Notes from './Notes/Notes.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <Conditional /> */}
-    <Unicafe />
+    {/* <Phonebook /> */}
+    <Notes />
   </StrictMode>,
 )
